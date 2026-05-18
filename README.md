@@ -2,4 +2,5 @@ Eliot Yoo
 
 1. Within a Github action that runs whenever code is pushed. This would be the best place to test your code since there could be a difference in local machines between the multiple developers. Testing with GitHub Action would keep testing consistent using the same environment with everyone and provide imediate feedback when code is pushed.
 2. No
-
+3. Navigation mode analyzes a page right after it loads, measuring things like page loading speed, rendering performance, over user experience during initial navigation, etc. Snapshot mode analyzes a page in its current state, inspecting the current DOM and other accessibility issues, not loading behavior.
+4. One thing we could do to improve the CSE 110 shop based on the results is to compress large image files to reduce loading delay. Another improvement would be to reduce code and/or remove unused code to further reduce latency. A third improvement could be to reduce the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.
